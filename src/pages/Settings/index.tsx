@@ -27,7 +27,7 @@ const Settings: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Settings</h1>
-          <p className="mt-2 text-gray-600">Configure your QuizForge platform preferences</p>
+          <p className="mt-2 text-gray-600">Configure your QuizWiz platform preferences</p>
         </div>
         <button className="mt-4 sm:mt-0 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-primary-600 hover:bg-primary-700 transition-colors duration-200">
           <Save className="mr-2 h-4 w-4" />
@@ -80,7 +80,7 @@ const GeneralSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Company Name</label>
             <input
               type="text"
-              defaultValue="QuizForge Solutions"
+              defaultValue="QuizWiz Solutions"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             />
           </div>
@@ -88,7 +88,7 @@ const GeneralSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Website URL</label>
             <input
               type="url"
-              defaultValue="https://quizforge.com"
+              defaultValue="https://quizwiz.com"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             />
           </div>
@@ -96,7 +96,7 @@ const GeneralSettings: React.FC = () => {
             <label className="block text-sm font-medium text-gray-700 mb-2">Contact Email</label>
             <input
               type="email"
-              defaultValue="contact@quizforge.com"
+              defaultValue="contact@quizwiz.com"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
             />
           </div>
@@ -246,7 +246,7 @@ const BrandingSettings: React.FC = () => {
           <div>
             <label className="flex items-center">
               <input type="checkbox" defaultChecked className="rounded border-gray-300 text-primary-600 focus:ring-primary-500" />
-              <span className="ml-2 text-sm text-gray-700">Remove QuizForge branding from quizzes</span>
+              <span className="ml-2 text-sm text-gray-700">Remove QuizWiz branding from quizzes</span>
             </label>
           </div>
           <div>
@@ -342,7 +342,7 @@ const SecuritySettings: React.FC = () => {
             <div className="flex items-center space-x-3">
               <input
                 type="password"
-                defaultValue="qf_live_1234567890abcdef"
+                defaultValue="qw_live_1234567890abcdef"
                 className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 readOnly
               />
@@ -385,8 +385,8 @@ const SecuritySettings: React.FC = () => {
           <div className="flex items-center justify-between">
             <div>
               <h4 className="text-lg font-semibold mb-2">Professional License</h4>
-              <p className="text-sm opacity-90">Licensed to: QuizForge Solutions</p>
-              <p className="text-sm opacity-90">License Key: QF-PRO-2024-ABCD1234</p>
+              <p className="text-sm opacity-90">Licensed to: QuizWiz Solutions</p>
+              <p className="text-sm opacity-90">License Key: QW-PRO-2024-ABCD1234</p>
               <p className="text-sm opacity-90">Valid until: Lifetime</p>
             </div>
             <div className="bg-white/20 p-3 rounded-lg">

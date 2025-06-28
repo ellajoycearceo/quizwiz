@@ -46,7 +46,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200">
           <div className="flex items-center space-x-2">
             <Zap className="h-8 w-8 text-primary-600" />
-            <span className="text-xl font-bold text-gray-900">QuizForge</span>
+            <span className="text-xl font-bold text-gray-900">QuizWiz</span>
           </div>
           <button
             onClick={() => setSidebarOpen(false)}
